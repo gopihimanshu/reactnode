@@ -14,10 +14,6 @@ app.set('view engine', 'pug');
 
 app.use('/', index);
 
-app.get('/', function (req, res) {
-    res.render('index', { title: 'Hey', message: 'Hello there!' })
-})
-
 app.listen(port, () => {
     console.log('Port is listening at ' + port);
 })
