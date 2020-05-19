@@ -4,18 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node src/server.js",
     "webpack": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
     "css-loader": "^3.5.3",
     "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1",
     "pug": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
